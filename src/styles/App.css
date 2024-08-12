@@ -1,0 +1,11 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: "Darker Grotesque";
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=App.css.map */

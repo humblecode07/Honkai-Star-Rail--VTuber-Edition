@@ -1,0 +1,15 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+    font-family: 'Darker Grotesque';
+}
+
+#root {
+    display: flex;
+    justify-content: center;
+}
+
+// .custom-blur {
+//     mask: linear-gradient(to right, black calc(100% - 8rem), transparent 100%);
+//   }

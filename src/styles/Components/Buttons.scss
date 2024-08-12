@@ -1,0 +1,40 @@
+.nav-btn {
+    position: relative;
+}
+
+// .nav-btn > img {
+//     transform: translateX(24px);
+//     transition: all .2s ease-in-out;
+// }
+
+// .nav-btn:hover > img {
+//     transform: translateX(0px);
+//     padding-left: .59375rem;
+//     padding-right: .59375rem;
+        
+// }
+
+// .nav-btn > span {
+//     opacity: 0;
+//     transform: translateX(-10px);
+//     transition: all .2s ease-in-out;
+// }
+
+// .nav-btn:hover > span {
+//     transform: translateX(0px);
+//     opacity: 1;
+// }
+
+.nav-btn--home:hover > span, 
+.nav-btn--about:hover > span,
+.nav-btn--talent:hover > span,
+.nav-btn--merch:hover > span  {
+    display: block !important;
+}
+
+.nav-btn--home:hover,
+.nav-btn--about:hover,
+.nav-btn--talent:hover,
+.nav-btn--merch:hover  {
+    width: auto;
+}

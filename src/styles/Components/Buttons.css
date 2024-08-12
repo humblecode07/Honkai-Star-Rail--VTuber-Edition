@@ -1,0 +1,17 @@
+.nav-btn {
+  position: relative;
+}
+
+.nav-btn--home:hover > span,
+.nav-btn--about:hover > span,
+.nav-btn--talent:hover > span,
+.nav-btn--merch:hover > span {
+  display: block !important;
+}
+
+.nav-btn--home:hover,
+.nav-btn--about:hover,
+.nav-btn--talent:hover,
+.nav-btn--merch:hover {
+  width: auto;
+}/*# sourceMappingURL=Buttons.css.map */
