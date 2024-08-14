@@ -9,7 +9,7 @@ import Hamburger from '../assets/Icons/icon-park-outline--hamburger-button.svg'
 
 const Header = () => {
   return (
-    <header className='relative pt-[2rem] h-[auto] w-full max-w-[1960px] flex items-center justify-between mx-auto my-0 mb-[5rem] px-[5rem] '>
+    <header className='absolute pt-[2rem] h-[10rem] w-full max-w-[1960px] flex items-center justify-between mx-auto my-0 mb-[5rem] px-[5rem] top-0 left-1/2 -translate-x-1/2'>
       <img className='h-[8rem] w-auto' src={StarRailLogo} alt="Honkai: Star Rail Logo" />
       <nav className='flex gap-[3.5125rem] nav-menu'>
         <NavigationButton icon={HomeIcon} name="Home" />

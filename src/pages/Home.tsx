@@ -8,6 +8,9 @@ const Home = () => {
       <Header />
       <main className='max-w-[none]'>
         <Hero />
+        <div>
+          a
+        </div>
       </main>
     </>
   )
