@@ -7,7 +7,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'darkerGrotesque': ["Darker Grotesque"]
+        'darkerGrotesque': ["Darker Grotesque"],
+        'notoSansJP': ["Noto Sans JP"]
       }
     },
   },

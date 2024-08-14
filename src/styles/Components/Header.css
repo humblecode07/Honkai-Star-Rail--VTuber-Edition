@@ -1,1 +1,29 @@
-/*# sourceMappingURL=Header.css.map */
+header {
+  overflow-x: hidden;
+}
+
+.hamburger-menu {
+  display: none;
+  box-shadow: 3px 3px;
+}
+
+@media only screen and (max-width: 750px) {
+  html {
+    font-size: 12px;
+  }
+  .nav-menu {
+    display: none !important;
+  }
+  header .hamburger-menu {
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media only screen and (max-width: 400px) {
+  header {
+    margin-top: -1.5rem !important;
+    padding-left: 4.3925rem !important;
+    padding-right: 4.3925rem !important;
+  }
+}/*# sourceMappingURL=Header.css.map */

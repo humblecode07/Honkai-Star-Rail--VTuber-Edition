@@ -1,14 +1,25 @@
 *, 
 *::before, 
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family: 'Darker Grotesque';
 }
 
-#root {
+body {
+    background-color: gray;
+    min-height: 100vh;
+    min-width: 20rem;
+    position: relative;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
 }
+
+#root {
+    overflow: hidden;
+}
+
 
 // .custom-blur {
 //     mask: linear-gradient(to right, black calc(100% - 8rem), transparent 100%);
