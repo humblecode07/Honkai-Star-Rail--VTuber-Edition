@@ -8,7 +8,10 @@ export default {
     extend: {
       fontFamily: {
         'darkerGrotesque': ["Darker Grotesque"],
-        'notoSansJP': ["Noto Sans JP"]
+        'notoSansJP': ["Noto Sans JP"],
+        'montserrat': ["Montserrat"],
+        'roboto': ["Roboto"],
+        'pacifico': ["Pacifico"]
       }
     },
   },

@@ -36,4 +36,34 @@
 
 .nav-btn--merch:hover > span::after {
   content: "Merch";
+}
+
+.cta-button {
+  transition: all 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+  background-color: #16171A;
+}
+.cta-button:hover div {
+  background-color: #FFDB29;
+}
+.cta-button:hover svg path {
+  fill: #16171A;
+}
+.cta-button:hover span {
+  color: #FFDB29;
+}
+
+.cta-button:active {
+  background-color: #0d0e10;
+}
+.cta-button:active div {
+  background-color: #e6c925;
+}
+.cta-button:active svg path {
+  fill: #121315;
+}
+.cta-button:active span {
+  color: #e6c925;
 }/*# sourceMappingURL=Buttons.css.map */

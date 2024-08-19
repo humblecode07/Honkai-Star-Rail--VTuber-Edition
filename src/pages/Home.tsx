@@ -1,6 +1,9 @@
 import React from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Home/Hero'
+import Talent from '../components/Home/Talent'
+import Marquee from '../components/Home/Marquee'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -8,9 +11,9 @@ const Home = () => {
       <Header />
       <main className='max-w-[none]'>
         <Hero />
-        <div>
-          a
-        </div>
+        <Talent />
+        <Marquee />
+        <Footer />
       </main>
     </>
   )

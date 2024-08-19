@@ -1,39 +1,75 @@
-.nav-btn > img {
+.nav-btn>img {
     transition: padding 0.3s ease-in-out;
 }
 
-.nav-btn:hover > img  {
+.nav-btn:hover>img {
     padding: 0 0.59375rem 0 1rem;
 }
 
-.nav-btn > span {
-    opacity: 0; 
+.nav-btn>span {
+    opacity: 0;
     transform: translateX(-20px);
     transition: all 0.3s ease-in-out
 }
 
-.nav-btn:hover > span  {
+.nav-btn:hover>span {
     opacity: 1;
     transform: translateX(0px);
     padding-right: 1rem;
 }
 
-.nav-btn:hover  {
+.nav-btn:hover {
     width: auto;
 }
 
-.nav-btn--home:hover > span::after {
+.nav-btn--home:hover>span::after {
     content: "Home";
 }
 
-.nav-btn--about:hover > span::after  {
+.nav-btn--about:hover>span::after {
     content: "About";
 }
 
-.nav-btn--talent:hover > span::after {
+.nav-btn--talent:hover>span::after {
     content: "Talents";
 }
 
-.nav-btn--merch:hover > span::after {
+.nav-btn--merch:hover>span::after {
     content: "Merch";
+}
+
+.cta-button {
+    transition: all 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    background-color: #16171A;
+
+    div {
+        background-color: #FFDB29;
+    }
+
+    svg path {
+        fill: #16171A;
+    }
+
+    span {
+        color: #FFDB29;
+    }
+}
+
+.cta-button:active {
+    background-color: #0d0e10;
+
+    div {
+        background-color: #e6c925;
+    }
+
+    svg path {
+        fill: #121315;
+    }
+
+    span {
+        color: #e6c925;
+    }
 }

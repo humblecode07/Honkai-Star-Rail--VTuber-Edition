@@ -1,0 +1,31 @@
+.talent-section {
+  height: 67.5rem;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  overflow: hidden;
+}
+
+.talent-cont {
+  grid-area: 1/1;
+  height: 135rem;
+  --scroll: 1px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-auto-flow: column;
+  transform: translateY(-60rem);
+}
+
+.talent {
+  position: relative;
+  overflow: hidden;
+}
+
+.talent-image { /* Assuming .talent-image is an img element */
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: 0;
+  height: 1024px;
+  min-width: 600px;
+}/*# sourceMappingURL=Talent.css.map */
