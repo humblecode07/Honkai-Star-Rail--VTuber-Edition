@@ -1,0 +1,83 @@
+    {
+        "JingLiu": {
+            "src": "../../assets/Talents/JingLiu.png",
+            "height": "88.6875rem",
+            "width": "52.375rem",
+            "alt": "JingLiu Img",
+            "viaColor": "#C1FBFF",
+            "toColor": "#AADFE2",
+            "translateX": "-40%",
+            "translateY": "8%"
+
+        },
+        "Kafka": {
+            "src": "../../assets/Talents/Kafka.png",
+            "height": "106.25rem",
+            "width": "58.64rem",
+            "alt": "Kafka Img",
+            "viaColor": "#E7BBD0",
+            "toColor": "#E7BBD0",
+            "translateX": "-50%",
+            "translateY": "25%"
+        },
+        "Stelle": {
+            "src": "../../assets/Talents/Stelle.png",
+            "height": "102.125rem",
+            "width": "51.937rem",
+            "alt": "Stelle Img",
+            "viaColor": "#DACAC5",
+            "toColor": "#FF9B7C",
+            "translateX": "-50%",
+            "translateY": "22%"
+        },
+        "SilverWolf": {
+            "src": "../../assets/Talents/SilverWolf.png",
+            "height": "106.25rem",
+            "width": "73.256rem",
+            "alt": "SilverWolf Img",
+            "viaColor": "#FFFFFF",
+            "toColor": "#FEFEFE",
+            "translateX": "-70%",
+            "translateY": "20%"
+        },
+        "March7th": {
+            "src": "../../assets/Talents/March7th.png",
+            "height": "77rem",
+            "width": "53.809rem",
+            "alt": "March7th Img",
+            "viaColor": "#FACADC",
+            "toColor": "#FACADC",
+            "translateX": "-50%",
+            "translateY": "0%"
+        },
+        "Firefly": {
+            "src": "../../assets/Talents/Firefly.png",
+            "height": "68.75rem",
+            "width": "44.836rem",
+            "alt": "Firefly Img",
+            "viaColor": "#B1FFA5",
+            "toColor": "#FEFEFE",
+            "translateX": "-50%",
+            "translateY": "-5%"
+        },
+        "Herta": {
+            "src": "../../assets/Talents/Herta.png",
+            "height": "94.937rem",
+            "width": "50.375rem",
+            "alt": "Herta Img",
+            "viaColor": "#FFFFFF",
+            "toColor": "#FEFEFE",
+            "translateX": "-35%",
+            "translateY": "16%"
+        },
+        "Topaz": {
+            "src": "../../assets/Talents/Topaz.png",
+            "height": "86.937rem",
+            "width": "61.937rem",
+            "alt": "Topaz Img",
+            "viaColor": "#FFFFFF",
+            "toColor": "#F16565",
+            "translateX": "-50%",
+            "translateY": "0%"
+        }
+    }

@@ -25,10 +25,7 @@
 .talent-image { /* Assuming .talent-image is an img element */
   position: absolute;
   left: 50%;
-  transform: translate(-50%);
   bottom: 0;
-  height: 1024px;
-  min-width: 600px;
 }
 
 .box--shadow {
