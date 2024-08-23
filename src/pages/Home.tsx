@@ -13,8 +13,8 @@ const Home = () => {
         <Hero />
         <Talent />
         <Marquee />
-        <Footer />
       </main>
+      <Footer />
     </>
   )
 }
