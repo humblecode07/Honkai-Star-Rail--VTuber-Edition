@@ -29,6 +29,28 @@
     bottom: 0;
   }
 
-.box--shadow {
-  box-shadow: 10px 10px;
+.button--talent {
+  cursor: pointer;
+  padding: 2rem;
+
+  &:hover {
+    margin-top: 24.5rem;
+    margin-left: .5rem;
+  }
+
+  &:active {
+    margin-top: 25rem;
+    margin-left: 1rem;
+  }
 }
+
+.button--border {
+  border: solid 2px black;
+  box-shadow: 10px 10px;
+
+  &:active {
+    box-shadow: 4px 4px;
+  }
+}
+
+

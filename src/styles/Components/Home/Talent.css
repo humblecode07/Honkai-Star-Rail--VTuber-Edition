@@ -28,6 +28,23 @@
   bottom: 0;
 }
 
-.box--shadow {
+.button--talent {
+  cursor: pointer;
+  padding: 2rem;
+}
+.button--talent:hover {
+  margin-top: 24.5rem;
+  margin-left: 0.5rem;
+}
+.button--talent:active {
+  margin-top: 25rem;
+  margin-left: 1rem;
+}
+
+.button--border {
+  border: solid 2px black;
   box-shadow: 10px 10px;
+}
+.button--border:active {
+  box-shadow: 4px 4px;
 }/*# sourceMappingURL=Talent.css.map */
