@@ -1,4 +1,3 @@
-import React from 'react'
 import TwitchIcon from '../assets/Logo/mdi--twitch.svg'
 import RedditIcon from '../assets/Logo/ic--baseline-reddit.svg'
 import YoutubeIcon from '../assets/Logo/mdi--youtube.svg'

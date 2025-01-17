@@ -1,4 +1,3 @@
-import React from 'react'
 import { NavigationButton, HamburgerButton } from './Buttons'
 import StarRailLogo from '../assets/Logo/icons8-honkai-star-rail-logo-128.svg'
 import HomeIcon from '../assets/Icons/hugeicons--home-03.svg';

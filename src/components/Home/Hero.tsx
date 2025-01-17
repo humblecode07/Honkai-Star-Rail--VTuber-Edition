@@ -1,4 +1,3 @@
-import React from 'react'
 import FireFlyBG from '../../assets/firefly-sunset-city-honkai-star-rail-moewalls-com.mp4'
 import SolarPlay from '../../assets/Icons/solar--play-bold.svg'
 import { CallToActionButton } from '../Buttons'

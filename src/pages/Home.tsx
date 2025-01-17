@@ -1,11 +1,11 @@
-import React from 'react'
+// import React from 'react'
 import Header from '../components/Header'
 import Hero from '../components/Home/Hero'
 import Talent from '../components/Home/Talent'
 import Marquee from '../components/Home/Marquee'
 import Footer from '../components/Footer'
-import LocomotiveScroll from 'locomotive-scroll'
-import { useEffect } from 'react'
+// import LocomotiveScroll from 'locomotive-scroll'
+// import { useEffect } from 'react'
 
 const Home = () => {
   // useEffect(() => {

@@ -2,8 +2,13 @@ import React from 'react';
 import '../styles/Components/Buttons.css'
 
 interface ButtonProps {
-    icon?: SVGElement;
+    icon?: string;
     name: string;
+}
+
+interface CallToActionButtonProps {
+    icon: string,
+    name: string
 }
 
 export const NavigationButton: React.FC<ButtonProps> = ({ icon, name }) => {
@@ -31,7 +36,7 @@ export const HamburgerButton: React.FC<ButtonProps> = ({ icon, name }) => {
     )
 }
 
-export const CallToActionButton: React.FC = () => {
+export const CallToActionButton: React.FC<CallToActionButtonProps> = () => {
     return (
         <a href='https://www.youtube.com/watch?v=r4vqr7oituE' className='h-[3.8rem] w-[12.8125rem] bg-[#FFDB29] rounded-full flex items-center justify-between cursor-pointer cta-button'>
             <div className='min-h-[2.1875rem] w-[2.1875rem] ml-[.75rem] bg-[#16171A] rounded-full flex items-center justify-center'>

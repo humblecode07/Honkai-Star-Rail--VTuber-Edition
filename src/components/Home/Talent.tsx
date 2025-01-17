@@ -1,19 +1,35 @@
-import React, { useEffect } from 'react'
-import talentData from '../../datas/talentData.json'
+import { useEffect } from 'react'
+import talentDataJson from '../../datas/talentData.json'
 
-const shuffleCard = (arr: { src: string }[]) => {
+interface TalentInfo {
+  src: string,
+  height: string,
+  width: string,
+  alt: string,
+  viaColor: string,
+  toColor: string,
+  translateX: string,
+  translateY: string,
+}
+
+interface TalentData {
+  [key: string]: TalentInfo
+}
+
+const shuffleCard = (arr: string[]) => {
   for (let i = arr.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
     [arr[i], arr[j]] = [arr[j], arr[i]];
   }
   return arr;
-}
+};
 
 const Talent = () => {
+  const talentData: TalentData = talentDataJson;
   const shuffledTalent = shuffleCard(Object.keys(talentData))
 
   useEffect(() => {
-    const a = Array(1001).fill(0).map((c, t) => {
+    const a = Array(1001).fill(0).map((_, t) => {
       // console.log(t)
       const e = t / 1000,
         n = 3 * (1 - e) * e * e * 0.58 + e * e * e,
@@ -24,13 +40,13 @@ const Talent = () => {
     }).reverse();
 
     const handleScroll = () => {
-      const talentCont = document.querySelector('.talent-cont');
+      const talentCont = document.querySelector('.talent-cont') as HTMLElement;
       const c = document.documentElement.clientHeight;
       const { top: t, height: e } = talentCont.getBoundingClientRect();
 
       const o = 1 - Math.min(Math.max((t + e - c) / e, 0), 1);
 
-      const m = a.find(([i]) => i <= o)[1];
+      const m = (a.find(([i]) => i <= o)?.[1] ?? 0);
 
       console.log(t, e)
 

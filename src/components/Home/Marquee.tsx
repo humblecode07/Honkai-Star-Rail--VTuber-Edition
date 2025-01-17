@@ -1,5 +1,5 @@
-import React from 'react'
-import { animate, motion } from 'framer-motion'
+// import React from 'react'
+import { motion } from 'framer-motion'
 import CapcomLogo from '../../assets/Logo/Capcom-Logo.wine.svg'
 import FunimationLogo from '../../assets/Logo/Funimation-Logo.wine.svg'
 import NamcoLogo from '../../assets/Logo/Namco-Logo.wine.svg'
