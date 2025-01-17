@@ -1,6 +1,6 @@
     {
         "JingLiu": {
-            "src": "../../assets/Talents/JingLiu.png",
+            "src": "/assets/Talents/JingLiu.png",
             "height": "88.6875rem",
             "width": "52.375rem",
             "alt": "JingLiu Img",
@@ -11,7 +11,7 @@
 
         },
         "Kafka": {
-            "src": "../../assets/Talents/Kafka.png",
+            "src": "/assets/Talents/Kafka.png",
             "height": "106.25rem",
             "width": "58.64rem",
             "alt": "Kafka Img",
@@ -21,7 +21,7 @@
             "translateY": "25%"
         },
         "Stelle": {
-            "src": "../../assets/Talents/Stelle.png",
+            "src": "/assets/Talents/Stelle.png",
             "height": "102.125rem",
             "width": "51.937rem",
             "alt": "Stelle Img",
@@ -31,7 +31,7 @@
             "translateY": "22%"
         },
         "SilverWolf": {
-            "src": "../../assets/Talents/SilverWolf.png",
+            "src": "/assets/Talents/SilverWolf.png",
             "height": "106.25rem",
             "width": "73.256rem",
             "alt": "SilverWolf Img",
@@ -41,7 +41,7 @@
             "translateY": "20%"
         },
         "March7th": {
-            "src": "../../assets/Talents/March7th.png",
+            "src": "/assets/Talents/March7th.png",
             "height": "77rem",
             "width": "53.809rem",
             "alt": "March7th Img",
@@ -51,7 +51,7 @@
             "translateY": "0%"
         },
         "Firefly": {
-            "src": "../../assets/Talents/Firefly.png",
+            "src": "/assets/Talents/Firefly.png",
             "height": "68.75rem",
             "width": "44.836rem",
             "alt": "Firefly Img",
@@ -61,7 +61,7 @@
             "translateY": "-5%"
         },
         "Herta": {
-            "src": "../../assets/Talents/Herta.png",
+            "src": "/assets/Talents/Herta.png",
             "height": "94.937rem",
             "width": "50.375rem",
             "alt": "Herta Img",
@@ -71,7 +71,7 @@
             "translateY": "16%"
         },
         "Topaz": {
-            "src": "../../assets/Talents/Topaz.png",
+            "src": "/assets/Talents/Topaz.png",
             "height": "86.937rem",
             "width": "61.937rem",
             "alt": "Topaz Img",

@@ -66,8 +66,10 @@ const Talent = () => {
       <section className='relative talent-section'>
         <div className='talent-cont'>
           {shuffledTalent.map((talent, key) => {
-            const imagePath = `../../assets/Talents/${talent}.png`;
-            const imageURL = new URL(imagePath, import.meta.url).href;
+            const imagePath = `/${talent}.png`;
+            const imageURL = imagePath;
+
+            console.log(imageURL);
 
             return (
               <div 
